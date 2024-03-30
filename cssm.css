@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family : montserrat;
+}
+body {
+	/* Specify background properties */
+	background-image: url('background-image.jpg'); /* URL to your background image */
+	background-size: cover; /* Cover the entire background */
+	background-position: center; /* Center the background */
+	/* Optionally, you can add more background properties like background-color */
+  }
+  
+.container {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.container h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="contact"],
+.container input[type="file"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.container button[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.container button[type="submit"]:hover {
+	background-color: #0069d9;
+}
+
+.progress {
+	height: 20px;
+	background-color: #ddd;
+	margin-top: 10px;
+}
+
+.progress-bar {
+	height: 100%;
+	background-color: #007bff;
+	width: 0;
+	transition: width 0.5s;
+}
